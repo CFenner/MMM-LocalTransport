@@ -25,6 +25,18 @@ Clone this repository:
 git clone https://github.com/CFenner/MMM-LocalTransport
 ```
 
+Change to the module's directory:
+
+```shell
+cd MMM-LocalTransport
+```
+
+Install dependecies:
+
+```shell
+npm install
+```
+
 Configure the module in your config.js file.
 
 ### Configuration

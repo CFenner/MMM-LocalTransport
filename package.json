@@ -1,0 +1,26 @@
+{
+  "name": "mmm-localtransport",
+  "version": "1.0.0",
+  "description": "A module for MagicMirror² to display the next local transport connection between an origin and destination.",
+  "main": "MMM-LocalTransport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CFenner/MMM-LocalTransport.git"
+  },
+  "keywords": [
+    "MagicMirror",
+    "Public Transport"
+  ],
+  "author": "Christopher Fenner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CFenner/MMM-LocalTransport/issues"
+  },
+  "homepage": "https://github.com/CFenner/MMM-LocalTransport#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
