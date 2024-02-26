@@ -1,14 +1,13 @@
 [![code climate](https://codeclimate.com/github/CFenner/MMM-LocalTransport/badges/gpa.svg)](https://codeclimate.com/github/CFenner/MMM-LocalTransport)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://choosealicense.com/licenses/mit/)
 
-# MagicMirror-LocalTransport-Module
+# MMM-LocalTransport
 
-This module display the next local transport connection between an origin and destination.
+This is a module for MagicMirror² to display the next local transport connection between an origin and destination.
 
-![preview](https://github.com/GHLasse/MagicMirror-LocalTransport-Module/blob/master/.github/preview-Berlin.png)
+![preview](.github/preview-Berlin.png)
 
-
-## Usage 
+## Usage
 
 You need to install the module for your MagicMirror.
 
@@ -19,10 +18,25 @@ Navigate into your MagicMirror's modules folder:
 ```shell
 cd ~/MagicMirror/modules
 ```
+
 Clone this repository:
+
 ```shell
 git clone https://github.com/CFenner/MMM-LocalTransport
 ```
+
+Change to the module's directory:
+
+```shell
+cd MMM-LocalTransport
+```
+
+Install dependecies:
+
+```shell
+npm install
+```
+
 Configure the module in your config.js file.
 
 ### Configuration
@@ -63,7 +77,7 @@ Add module configuration to config.js.
 
 ## Preview of various settings
 
-```
+```js
 {
   module: 'MMM-LocalTransport',
   header: 'to Victoriy Coach Station',
@@ -79,8 +93,10 @@ Add module configuration to config.js.
   }
 },
 ```
-![London - left long block](https://github.com/GHLasse/MagicMirror-LocalTransport-Module/blob/master/.github/preview-London.png)
-```
+
+![London - left long block](.github/preview-London.png)
+
+```js
 {
   module: 'MMM-LocalTransport',
   header: 'nach Berlin',
@@ -98,8 +114,10 @@ Add module configuration to config.js.
   }
 },
 ```
-![Berlin - right short](https://github.com/GHLasse/MagicMirror-LocalTransport-Module/blob/master/.github/preview-Berlin.png)
-```
+
+![Berlin - right short](.github/preview-Berlin.png)
+
+```js
 {
   module: 'MMM-LocalTransport',
   header: 'to Museum of Art',
@@ -114,7 +132,8 @@ Add module configuration to config.js.
   }
 },
 ```
-![New York - left](https://github.com/GHLasse/MagicMirror-LocalTransport-Module/blob/master/.github/preview-NewYork.png)
+
+![New York - left](.github/preview-NewYork.png)
 
 ## Special Thanks
 

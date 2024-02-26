@@ -1,5 +1,5 @@
 /* global Module */
-/* Magic Mirror
+/* MagicMirror²
  * Module: MMM-LocalTransport
  *
  * By Christopher Fenner https://github.com/CFenner

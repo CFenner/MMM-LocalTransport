@@ -1,4 +1,4 @@
-/* Magic Mirror
+/* MagicMirror²
  * Module: localtransport
  *
  * By Christopher Fenner https://github.com/CFenner
